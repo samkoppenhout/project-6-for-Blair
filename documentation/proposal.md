@@ -6,14 +6,31 @@ I will be developing a companion program for a party game similar to the popular
 
 ## Context:
 
-According to global data and business intelligence platform Statista, total revenue in the board games market was estimated to reach US$2.12bn in 2022 alone, and is anticipated to grow at a compound annual growth rate of 3.52% from 2024 to 2028 [1], making this a colossal market which is only growing in size. For many, one of the key obstacles to getting into any board game is the organisational and equipment requirements to running a gaming session, the game Werewolves being no exception; By using a companion web application that can run on a mobile phone instead of using physical cards, a lot of the obstacles with this game can be removed, while still maintaining the face-to-face social elements that make the original so enjoyable.
-Although my main interest in developing this project is to play with my own friends, it could easily be extended this larger market.\
+According to global data and business intelligence platform Statista, total revenue in the board games market was estimated to reach US$2.12bn in 2022 alone, and is anticipated to grow at a compound annual growth rate of 3.52% from 2024 to 2028 [1], making this a colossal market which is only growing in size.
+
+One popular entry into the market is the game 'Werewolves,' also known as 'Mafia' and adapted into the BBC reality TV show 'The Traitors.' Created in the 1980s, it is a social deduction game that relies on bluffing and deception to determine the winner. In its simplest form, players are secretly assigned the role of either an innocent villager or a murderous werewolf. The werewolves must collaborate to eliminate all the villagers without being discovered and killed.
+
+The game alternates between two phases: night and day. During the night, the werewolves secretly choose a villager to kill. During the day, all surviving players publicly vote on a suspect to eliminate. These phases continue until one team is decisively victorious. To win as a werewolf, you must deceive the villagers into trusting you. To win as a villager, you must identify and expose the werewolves among you.
+
+The popularity of the game stems largely from the face-to-face interactions that the game encourages, with the key moments of every game usually being the unpicking of a lying werewolf's story, or the successful convincing of an uncertain villager. This means that online versions, which do currently exist, often find themselves to be inherently flawed, as the inability to observe a group of people's reactions, even over video calls, makes responding to them so much more difficult.
+
+For many, one of the key obstacles to getting into any board game is the organisational and equipment requirements to running a session, and the game Werewolves being no exception; Each game requires props, such as role cards, to be secretly handed out to each player at the start of the round, meaning that the game can only be played in situations where these are already present and would not be an inconvenience, eliminating the ability to play a short session of the game on a spur of the moment when with a group of interested players.
+
+The solution to this problem is detailed in this proposal. A companion web application that can run on a mobile phone instead of using physical cards, removing the obstacles to gameplay while still maintaining the face-to-face social elements that make the original so enjoyable.
+
+Although my main interest in developing this project is to play with my own friends, it could easily be extended the larger board game market.\
 \
 In summary, below are the key problems that will be solved by this project:
 
 - The game in its current form requires some cards and/or preparation and organisation. By using only a mobile phone, this can be removed, allowing the game to be played in a variety of settings that would previously have been difficult, as well as allowing the game to be suggested and started in as short a time as possible.
 - Current online versions of the game exist, but are played entirely over the internet, removing some of the most enjoyable social aspects. By leaving as much as possible to in-person interaction, the key elements of the game are maintained.
 - Time between rounds must be spent collecting, shuffling and dealing cards. This can be reduced by using the application, allowing for more gameplay time.
+
+## User Interface:
+
+Below are wireframes for the app on wide screens and mobile screens:
+![image](../images/wireframes-large.png)
+![image](../images/wireframes-small.png)
 
 ## Features:
 
@@ -29,15 +46,11 @@ In summary, below are the key problems that will be solved by this project:
 - The ‘room’ owner will be able to end the game - Update room object, Update user object
 - The ‘room’ owner will be able to close the ‘room’ - Destroy room object, destroy user object
 
-## User Interface:
+## Working Methodologies:
 
-Below are wireframes for the app on wide screens and mobile screens:
-![image](../images/wireframes-large.png)
-![image](../images/wireframes-small.png)
+The project will be managed using AGILE methodologies, incorporating a Kanban board to display and track work. Regular reflections on progress will occur between work 'sprints'. Additionally, a project retrospective will be conducted to maximize learning from the process. Markdown documentation will cover design, features, usage, testing, and the retrospective.
 
 ## Architecture:
-
-The project will be worked on using AGILE methodologies where possible, including using a Kanban board to display and keep track of work and regularly taking time to reflect on progress between work 'sprints'. I will also undertake a project retro to allow me to learn from the process as effectively as possible. Markdown documentation will be included on design, features, usage, testing and the retro.
 
 ### React Front End:
 
