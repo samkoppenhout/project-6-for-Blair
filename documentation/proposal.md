@@ -99,8 +99,8 @@ Below is a screenshot of a domain model for the logic on the server. This does n
 | ---------------- | ---------------------------------- | ------------------------------------- |
 | Get /role        | userID @String                     | statuscode, role @String              |
 | Get /room        | userID @String, authToken          | statuscode, room @Room                |
-| Push /start      | settings @Settings, authToken      | statuscode                            |
-| Push /join       | userID @String, roomID @String     | statuscode                            |
+| Post /start      | settings @Settings, authToken      | statuscode                            |
+| Post /join       | userID @String, roomID @String     | statuscode                            |
 | Put /create      | userID @String, authToken          | Statuscode, roomID @String            |
 | Put /signup      | username @String, password @String | statuscode                            |
 | Get /signin      | username @String, password @String | statuscode, authToken, userID @String |
