@@ -157,7 +157,7 @@ The application will be developed using test driven development and at least 80%
 
 ## Further Development:
 
-The first stage of this project will be complete over the next two weeks, for which my goal is to have completed all of the features detailed above. There are a handful of features that I am interested in implementing further along in the development of this project:
+The first stage of this project will take place over the next three weeks. My goal for this stage is to have completed all of the features detailed above. There are then a handful of features that I am interested in implementing further along in the development of this project:
 
 - **Real-time Role Updates:** This is a stretch goal for the main project. I would like to use the Socket.IO library to establish a real-time data stream between the React front end and the Mongodb database, allowing users to have their roles distributed as soon as the game starts without needing to use the refresh button to check for updates from the server.
 - **More Game Variants:** There are a number of variants of the real-life game, including many different roles. A future development will be to add these as part of the room settings menu for the logged-in room owner to include in the game if desired.
@@ -174,9 +174,9 @@ The following environment variables will be used in the project:
 
 - PORT
 - HOST
-- DB_USER - For MongDB Atlas.
-- DB_PASSWORD - For MongDB Atlas.
-- DB_URI - For MongDB Atlas.
+- DB_USER - For MongoDB Atlas.
+- DB_PASSWORD - For MongoDB Atlas.
+- DB_URI - For MongoDB Atlas.
 - JWT_SECRET - For JSON Web Token authentication.
 
 ## References:
